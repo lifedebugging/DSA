@@ -11,7 +11,8 @@ i+=i
 ```
 OR
 ```
-return lambda x: x+x
+doubled = lambda i: i+i
+return doubled(i)
 ```
 OR
 
