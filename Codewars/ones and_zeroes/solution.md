@@ -1,7 +1,8 @@
 # Try 1
 
 At first my solution was 
-
+with an approach of using enumerate to get the index
+and apply exponent on it and further multiplying it with val for 1s and 0s
 ```
 def binary_array_to_number(arr):
     num = 0
