@@ -1,3 +1,4 @@
+```
 import statistics
 def get_grade(s1, s2, s3):
     score = statistics.mean([s1, s2, s3])
@@ -11,3 +12,15 @@ def get_grade(s1, s2, s3):
         return 'D'  
     else:
         return 'F'
+```
+OR
+```
+def get_grade(s1, s2, s3):
+    mean = sum([s1,s2,s3])/3
+    if mean>=90: return 'A'
+    if mean>=80: return 'B'
+    if mean>=70: return 'C'
+    if mean>=60: return 'D'
+    return 'F'
+
+```
