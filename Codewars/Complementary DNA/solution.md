@@ -7,7 +7,7 @@ BUt the problem is when it run A gets replaced by T then T get replaced by A aga
 My thinking:
 
 loop one by one over each string and replace it and so i did
-however make sure you store the string in new string because well it won't work
+however make sure you store *the string in new string* because well it won't work
 ```
 def DNA_strand(dna):
     new_dna = ""
@@ -25,4 +25,9 @@ def DNA_strand(dna):
     return new_dna
     # code here
 ```
-
+better way:
+```
+def DNA_strand(dna):
+    return dna.translate(str.maketrans({"A": "T", "T": "A", "G": "C", "C": "G"}))
+    # code here
+```
