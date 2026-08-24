@@ -23,7 +23,7 @@ string multiplication and slicing
 ```
 def stringy(size):
 
-    return (10 * size)[:size]
+    return ("10" * size)[:size]
 
 """
 "10" * 5 creates "1010101010" (length 10).
