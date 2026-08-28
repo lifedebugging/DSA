@@ -21,7 +21,7 @@ def calculator(x, y, op):
 second solutoin
 ```
 def calculator(x, y, op):
-    if not isinstance(x, int) and isinstance(y,int):
+    if not isinstance(x, int) or not isinstance(y,int):
         return "unknown value"
     match op:
         case "+":
