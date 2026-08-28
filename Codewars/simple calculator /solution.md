@@ -21,6 +21,7 @@ def calculator(x, y, op):
 second solutoin
 ```
 def calculator(x, y, op):
+# de morgan's law
     if not isinstance(x, int) or not isinstance(y,int):
         return "unknown value"
     match op:
