@@ -7,3 +7,9 @@ OR
 def make_negative(number):
     return (number, -number)[number > 0]
 ```
+OR
+```
+def make_negative(number):
+    return -abs(number)
+```
+OR
