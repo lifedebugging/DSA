@@ -15,3 +15,14 @@ def persistence(n):
             counter += 1
     return counter
 ```
+another one
+```py
+import math
+
+def persistence(n):
+    counter = 0
+    while n >= 10:
+        n = math.prod(map(int, str(n)))
+        counter += 1
+    return counter
+```
