@@ -5,3 +5,9 @@ def sum_two_smallest_numbers(numbers):
         return "Not enough numbers"
     return sum(sorted_sum[:2])
 ```
+OR
+```
+def sum_two_smallest_numbers(numbers):
+    return sum(sorted(numbers)[:2])
+```
+since sum(iterable) it takes an iterable you can pass the sorted.
