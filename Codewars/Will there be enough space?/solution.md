@@ -14,3 +14,8 @@ def enough(cap, on, wait):
     return 0
     # Your code here
 ```
+and
+```py
+def enough(cap, on, wait):
+    return max(0, wait-(cap-on))
+```
