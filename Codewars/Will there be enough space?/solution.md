@@ -6,3 +6,11 @@ def enough(cap, on, wait):
         return ((on + wait) - cap) 
     # Your code here
 ```
+and
+```py
+def enough(cap, on, wait):
+    if  not (on + wait) <= cap:
+        return ((on + wait) - cap)
+    return 0
+    # Your code here
+```
