@@ -18,3 +18,12 @@ def reverse(seq):
         right -= 1
     return seq
 ```
+OR
+```py
+# Time: 3500-4300ms
+def reverse(seq):
+    return_list = list()
+    for i in range(len(seq)):
+        return_list.append(seq.pop())
+    seq.extend(return_list)
+```
