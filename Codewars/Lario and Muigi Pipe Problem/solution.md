@@ -9,3 +9,8 @@ def pipe_fix(nums):
         counter.append(i)
     return counter
 ```
+OR
+```py
+def pipe_fix(nums):
+	return list(range(nums[0], nums[-1] + 1))
+```
