@@ -16,4 +16,5 @@ def reverse(seq):
         seq[left], seq[right] = seq[right], seq[left]
         left += 1
         right -= 1
+    return seq
 ```
