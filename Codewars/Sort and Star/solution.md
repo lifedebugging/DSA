@@ -7,3 +7,9 @@ def two_sort(array):
     sorted_arr = sorted(array)
     return "***".join(char for char in sorted_arr[0])
 ```
+OR
+```py
+def two_sort(lst):
+    return '***'.join(min(lst))
+```
+`min` it just scans through the list and looks for the one that comes first alphabetically (lexicographically).
